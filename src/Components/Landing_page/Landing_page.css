@@ -1,0 +1,603 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
+.main_landing {
+  background: url(../Assets/boldt.png);
+
+  background-size: cover;
+}
+
+/* New color code #04A58A */
+
+.main_ld_haeding {
+  font-size: 36px;
+  color: white;
+  text-align: left;
+  text-transform: capitalize;
+  /* font-family: 'Belgrano', serif; */
+  font-weight: 700;
+}
+
+.lg_left_cont p {
+  color: white !important;
+  padding: 20px 0px;
+  /* font-family: 'Belgrano', serif; */
+}
+
+/* .card_main_bg {
+background-color: #111112;
+padding: 32px ;
+border-radius: 30px;
+transition: all 0.5s;
+border: 1px solid #69E4FF !important;
+
+} */
+
+.card_main_bg {
+  background-color: black;
+  padding: 20px 10px;
+  border-radius: 24px;
+
+  box-shadow: 0 0 4px #04a58a, 0 0 5px #04a58a, 0 0 5px #04a58a,
+    0 0 40px #04a58a;
+  /* box-shadow: 0 0 10px #00ff08, 0 0 20px #00ff08, 0 0 30px #00ff08, 0 0 40px #00ff08; */
+}
+
+.card_main_bg:hover {
+  border: 1px solid #04a58a !important;
+}
+
+.card_main_content h5 {
+  color: white !important;
+  text-align: center;
+  margin-bottom: 0px;
+  /* font-family: 'Public Sans', sans-serif; */
+  padding: 15px 0px !important;
+}
+
+.main_progress_bar {
+  width: 100%;
+  background: #f9f4f0;
+  height: 24px;
+  border-radius: 15px !important;
+  overflow: hidden;
+  position: relative;
+  background-color: #000;
+  border: 1px solid #fff;
+}
+
+.progress_bar_clr {
+  background-color: #111112 !important ;
+  width: 49% !important;
+  position: absolute !important;
+}
+
+.text_progress {
+  width: 100%;
+  height: 100%;
+  font-size: 13px;
+  text-align: center;
+  /* font-family: 'Public Sans', sans-serif; */
+  line-height: 24px;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  position: relative;
+  left: 50% !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.token_s {
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  /* font-family: 'Public Sans', sans-serif; */
+  margin-top: 1rem;
+}
+
+.one_how {
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  /* font-family: 'Public Sans', sans-serif; */
+}
+
+.one_how::before {
+  content: "";
+  width: 25%;
+  height: 1px;
+  background: #04a58a;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+.one_how::after {
+  content: "";
+  width: 25%;
+  height: 1px;
+  background: #04a58a !important;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+.eth {
+  /* border: 1px solid white; */
+  padding: 4px 4px;
+  width: 6.9rem;
+}
+
+.eth p {
+  color: white !important;
+  margin-bottom: 0px;
+  /* font-family: 'Public Sans', sans-serif; */
+}
+
+.token_logo {
+  width: 30px;
+  height: 30px;
+}
+
+.new_conver p {
+  color: white;
+  margin-bottom: 0px;
+  text-transform: capitalize;
+}
+
+.covert_input {
+  padding: 5px 0px;
+  border: 2px solid #04a58aa7 !important ;
+  border-radius: 10px;
+}
+
+.input_cober {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 80%;
+  padding: 0 10px;
+  /* font-family: 'Public Sans', sans-serif; */
+  color: white !important;
+  font-size: 16px;
+}
+
+.covert_input img {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.how_buy p {
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  font-size: 20px !important;
+  /* font-family: 'Public Sans', sans-serif; */
+  margin-top: 1rem !important;
+}
+
+.site_main_btn:hover {
+  background-color: #dcdcdc;
+  /* border: 1px solid #00ff80; */
+  color: #111112 !important;
+}
+
+.site_main_btn {
+  cursor: pointer;
+
+  line-height: 1;
+  /* font-family: 'Public Sans', sans-serif; */
+  transition: all 0.5s ease-in-out;
+  font-weight: 500;
+  font-size: 14px !important;
+  margin-bottom: 1rem !important;
+  width: 100% !important;
+  color: white !important;
+  background-color: #111112;
+  outline: none;
+  border: none;
+  padding: 17px 26px 17px 26px;
+  border-radius: 12px;
+  /* padding: 1rem 0.75rem; */
+  border: 1px solid white;
+}
+
+.buy_moon_btn {
+  background-color: #111112;
+  background-image: linear-gradient(to right, #000, #1e1c1c(83, 208, 173));
+  color: white;
+  outline: none;
+  transition: all 0.5s;
+  border: none;
+  padding: 8px 30px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  /* font-family: 'Public Sans', sans-serif; */
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 12px;
+}
+
+.buy_moon_btn:hover {
+  background-color: #dcdcdc;
+  border: 1px solid #111112;
+  color: #111112;
+}
+
+.buy_moon_btnn:hover {
+  background-color: #dcdcdc;
+  border: 1px solid #111112;
+  color: #111112;
+}
+
+.buy_moon_btnn {
+  border: 1px solid white;
+  text-transform: uppercase;
+  font-size: 18px;
+  transition: all 0.5s;
+
+  /* font-family: 'Public Sans', sans-serif; */
+  background-color: #111112;
+
+  color: white;
+  padding: 8px 30px;
+  font-weight: bold;
+  border-radius: 12px;
+}
+
+.join {
+  color: white;
+  font-weight: 500;
+  font-size: 26px;
+  text-transform: capitalize;
+  /* font-family: 'Public Sans', sans-serif; */
+}
+
+.soical_icon_main {
+  border-radius: 12px;
+  /* background-color: #292626; */
+  padding: 10px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 50%;
+}
+
+.icccons {
+  margin-top: 20px;
+  color: #04a58a;
+  font-size: 30px;
+}
+
+.lit h6 {
+  color: white !important;
+  font-size: 22px !important;
+  text-transform: capitalize;
+  /* font-family: 'Public Sans', sans-serif; */
+}
+
+.lit p {
+  color: white !important;
+  /* font-family: 'Public Sans', sans-serif; */
+}
+
+.border_re {
+  border-radius: 50% !important;
+  width: 30px;
+  height: 30px;
+}
+
+@media only screen and (max-width: 699px) {
+  .soical_icon_main {
+    width: 100% !important;
+    margin-bottom: 3rem !important;
+  }
+  .buy_moon_btn {
+    padding: 7px 19px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .eth {
+    width: 5.3rem !important;
+  }
+}
+
+@media (min-width: 351px) and (max-width: 400px) {
+  .eth {
+    width: 5.9rem !important;
+  }
+}
+@media (min-width: 700px) and (max-width: 990px) {
+  .eth {
+    width: 5rem !important;
+  }
+  .new_conver p {
+    font-size: 9px !important;
+  }
+
+  .soical_icon_main {
+    width: 100% !important;
+  }
+}
+
+.new-text {
+  color: #04a58a;
+}
+
+.eth {
+  /* border: 1px solid white; */
+  border-radius: 12px;
+  padding: 4px 4px;
+  width: 6.9rem;
+  background-color: #2c2c2c;
+  cursor: pointer;
+}
+
+.eth p {
+  color: white !important;
+  margin-bottom: 0px;
+}
+.eth_bla {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.progress_bar {
+  position: relative;
+
+  border-radius: 12px !important;
+  text-align: center;
+  align-items: center;
+  border: 1px solid #04a58a;
+}
+
+.stage_text {
+  color: #fff !important;
+  z-index: 10000;
+  font-size: 14px;
+  text-transform: capitalize !important;
+  text-align: center;
+  margin-bottom: 0px;
+  font-weight: 700;
+  position: relative;
+}
+
+.bvvvv {
+  background: linear-gradient(90deg, #11e096 0%, #0c95d3 100%) !important;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.bold-text {
+  color: #04a58a;
+}
+
+/* New button */
+/* <!-- HTML !-->
+<button class="button-18" role="button">Button 18</button> */
+
+/* CSS */
+.button-18 {
+  justify-content: center;
+  align-items: center;
+  background-color: #0a66c2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  /* font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;  */
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus {
+  background-color: #16437e;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.button-18:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* <!-- HTML !-->
+<button class="button-25" role="button">Button 25</button> */
+
+/* CSS */
+.button-25 {
+  margin-top: 10px;
+  background-color: #36a9ae;
+  background-image: linear-gradient(#37adb2, #329ca0);
+  border: 1px solid #2a8387;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  /* font-family: -apple-system,".SFNSDisplay-Regular","Helvetica Neue",Helvetica,Arial,sans-serif; */
+  font-size: 17px;
+  line-height: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 11px 15px 12px;
+  text-align: center;
+  transition: box-shadow 0.05s ease-in-out, opacity 0.05s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-25:hover {
+  box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset,
+    rgba(0, 0, 0, 0.4) 0 1px 2px;
+  text-decoration: none;
+  transition-duration: 0.15s, 0.15s;
+}
+
+.button-25:active {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 2px 4px inset, rgba(0, 0, 0, 0.4) 0 1px 1px;
+}
+
+.button-25:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.button-25:disabled:active {
+  pointer-events: none;
+}
+
+.button-25:disabled:hover {
+  box-shadow: none;
+}
+
+/* <!-- HTML !-->
+<button class="button-9" role="button">Button 9</button> */
+
+/* CSS */
+.button-9 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #04a58a;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #000000 !important;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    Ubuntu, sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  /* width: 100%; */
+}
+
+.button-9:disabled {
+  cursor: default;
+}
+
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+    rgba(50, 151, 211, 0.3) 0 0 0 4px;
+}
+
+.button-10 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #04a58a;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #000000 !important;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    Ubuntu, sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 40%;
+}
+
+.button-10:disabled {
+  cursor: default;
+}
+
+.button-10:focus {
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+    rgba(50, 151, 211, 0.3) 0 0 0 4px;
+}
+
+.card-wrapper {
+  border-radius: 14px;
+  border: 2px solid #6262624b;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.card-wrapper:hover {
+  transform: translateY(-3px) scale(1.03);
+}
+
+.shape-1 {
+  position: absolute;
+  max-width: 400px;
+  min-width: 320px;
+  height: 400px;
+  background-color: #04a58a;
+  width: 100%;
+  z-index: 0;
+  filter: blur(200px);
+}
